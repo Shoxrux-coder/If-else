@@ -1,3 +1,4 @@
+// If-else
 let dayNumber = new Date().getDay();
 
 if (dayNumber === 0) {
@@ -18,8 +19,10 @@ if (dayNumber === 0) {
   day = 'Неизвестный день недели';
 }
 
-console.log('Сегодня ' + day.toLowerCase() + '.');
+console.log('Сегодня ' + day.toLowerCase() + '.' + ' Это через If');
 
+
+// Switch Case
 var day = '';
 
 switch(new Date().getDay()) {
@@ -48,4 +51,9 @@ switch(new Date().getDay()) {
     day = 'Неизвестный день недели';
 }
 
-console.log('Сегодня ' + day.toLowerCase() + '.');
+console.log('Сегодня ' + day.toLowerCase() + '.' + ' Это через switchCase');
+
+
+// Тернарный оператор
+let name = prompt('What is your name?')
+name == "Daler" || name == "Далер" ? console.log('Welcome, my friend') : console.log('Did you enter your name correctly?')
