@@ -51,9 +51,9 @@ switch(new Date().getDay()) {
     day = 'Неизвестный день недели';
 }
 
-console.log('Сегодня ' + day.toLowerCase() + '.' + ' Это через switchCase');
+console.log('Сегодня ' + day.toLowerCase() + '.' + ' А это через switchCase');
 
 
-// Тернарный оператор
+// Тернарный оператор и значок Или
 let name = prompt('What is your name?')
-name == "Daler" || name == "Далер" ? console.log('Welcome, my friend') : console.log('Did you enter your name correctly?')
+name == "Daler" || name == "Далер" ? console.log('Welcome, my bro!') : console.log('Did you enter your name correctly?')
